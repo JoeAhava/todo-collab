@@ -6,11 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+<div class="container">
+<div id="navbar">
+   <a href="index.html"><h2>To do</h2> </a>
+    <form>
+        <input name="addlist" type="text" placeholder="new task">
+        <input class="button" type="submit" value="Add task" name="addlist"></button>
+    </form>
+</div>
+<div class="todo">
+    <label>
+        TO DO
+    </label>
+</div>
 
+<div class="completed">
+    <label>
+        Completed
+    </label>
+</div>
+</div>
     <script src="/todo.js"></script>
     <script src="/main.js"></script>
 </body>
