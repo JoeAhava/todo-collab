@@ -68,9 +68,4 @@ function markComplete(todo) {
 // !TODO unimplemented
 function removeTodo() {}
 
-module.exports = {
-	getTodos,
-	addTodo,
-	markComplete,
-	removeTodo,
-};
+export { getTodos, addTodo, markComplete, removeTodo };
