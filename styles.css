@@ -1,0 +1,36 @@
+body{
+    background-color:#c5c4c4;
+   
+}
+.button{
+    background-color: rgb(6, 109, 6);
+    color: whitesmoke;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+.todo{
+    margin-top: 1%;
+    height: 40vh;
+    overflow-y: scroll;
+}
+.completed{
+    margin-top: 1%;
+    overflow-y: scroll;
+}
+h2{
+    margin: 0,0,0,0;
+    margin-block: 0;
+    color: whitesmoke;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 59, 6);
+    padding: 0.5%;
+}
