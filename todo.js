@@ -12,9 +12,11 @@ const API_URL = "https://jsonplaceholder.typicode.com";
  *      }
  * ]
  */
-async function getTodos(limit = 20) {
+async function getTodos(limit = 20, offset = 0) {
 	try {
-		const response = await fetch(`${API_URL}/todos?limit=${limit}`);
+		const response = await fetch(
+			`${API_URL}/todos?_limit=${limit}&_start=${offset}`,
+		);
 		const result = response.json();
 		return result;
 	} catch (err) {
